@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-#  Virtual Machine Manager (Alternativa ao VirtualBox)
+#  Virtual Machine Manager (Substituto do VirtualBox)
 
 sudo apt install virt-manager
 
