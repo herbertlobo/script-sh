@@ -4,6 +4,8 @@
 # virtual  box 6.1
 sudo apt install virtualbox-6.1
 
+# Adicionar seu usuário no grupo vboxusers
+sudo usermod -a -G vboxusers $USER
 
 #Erro no modulo do Kernel, VirtualBox, muito comum após instalação de um kernel novo.
 #*Esses comandos valem para Ubuntu, Linux Mint Debian e derivados.
@@ -17,5 +19,5 @@ sudo m-a prepare
 #*Depois compile o driver
 sudo /sbin/vboxconfig
 #ou 
-sudo vboxconfig 
+#sudo vboxconfig 
 
